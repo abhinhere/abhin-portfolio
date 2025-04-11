@@ -46,6 +46,11 @@ const Index = () => {
       
       {/* Footer */}
       <Footer />
+
+      {/* Notification about placeholder images */}
+      <div className="fixed bottom-4 left-4 right-4 md:left-auto md:right-4 md:max-w-md p-4 bg-primary/10 backdrop-blur-md border border-primary/30 rounded-lg z-50 text-sm">
+        <p>Note: Placeholder images are used. Please replace them with your actual photos in the public/images directory.</p>
+      </div>
     </div>
   );
 };
