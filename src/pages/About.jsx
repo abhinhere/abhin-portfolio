@@ -12,28 +12,20 @@ function About() {
           <h4>
             <span className="text-about">Welcome to my corner of the web!</span>
             <br />
-            I am deeply passionate about computer science and full-stack development. Currently
-            pursuing my studies in computer science, I thrive on the challenges and innovations that
-            this field offers.
+            I’m Abhin, an aspiring full-stack developer currently pursuing a B.Tech in Computer Science. I have hands-on experience building and delivering websites for clients and I’m now focused on expanding into full-stack development by building real, scalable applications.
           </h4>
 
           <h4>
-            <span className="text-about">Beyond academia,</span> I am also the proud founder of
-            MadeWebs, a company dedicated to crafting unique and impactful web solutions. Through
-            MadeWebs, I channel my creativity and technical skills into developing websites that not
-            only meet but exceed expectations.
+            <span className="text-about">BEYOND ACADEMICS,</span> I’ve worked on freelance web projects, delivering multiple websites based on client requirements. Alongside my technical work, I’m actively involved in student communities—serving as an IEEE LINK team member (2025) and student lead at IEDC CEV, with continued involvement in volunteering initiatives.
           </h4>
 
           <h4>
-            <span className="text-about">My journey into the world of technology</span> began with a
-            fascination for coding and problem-solving. This passion has driven me to continuously
-            learn and grow, staying abreast of the latest advancements in web development and
-            software engineering.
+            <span className="text-about">MY FOCUS</span> is on improving my development skills through practical work, understanding how real-world systems function, and building applications that are useful, reliable, and user-focused.
           </h4>
 
           <h4>
             <span className="text-about">
-              Crafting Digital Excellence: Where Passion Meets Precision
+              From client websites to full-stack systems—learning by building.
             </span>
           </h4>
         </div>
@@ -59,10 +51,6 @@ function About() {
               <i className="fa fa-instagram fa-1x icon1"></i> Instagram : abhin__C
             </a>
             <br /><br />
-            <a href="https://www.facebook.com/Abhin.Google">
-              <i className="fa fa-facebook fa-1x icon1"></i> Facebook : Abhin.C
-            </a>
-            <br /><br />
             <a href="https://www.linkedin.com/in/abhin-c/">
               <i className="fa fa-linkedin fa-1x icon1"></i> linkedin : abhin-C
             </a>
@@ -71,14 +59,10 @@ function About() {
               <i className="fa fa-github fa-1x icon1"></i> Github : abhinhere
             </a>
             <br /><br />
-            <a href="https://www.youtube.com/@abhin.c">
-              <i className="fa fa-youtube fa-1x icon1"></i> Youtube : abhin.c
-            </a>
-            <br /><br />
             <a href="https://x.com/Abhin__c">
               <i className="fa fa-twitter fa-1x icon1"></i> X : abhinhere
             </a>
-            <br />
+            <br/><br/>
           </center>
         </div>
       </div>

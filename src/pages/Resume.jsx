@@ -39,20 +39,19 @@ function Resume() {
             <div className="col-lg-2 col-lg-offset-1">
               <h4>Work</h4>
             </div>
-
+        
             {/* Media Manager */}
             <div className="col-lg-6">
               <p>
-                <span className="e-heading">Media Manager</span>
+                <span className="e-heading">Freelancing</span>
                 <br />
-                NSS GMHSS CU Campus
+                MadeWebs
                 <br />
               </p>
               <p>
                 <span className="more">
-                  I contributed to the National Service Scheme as a dedicated volunteer, leveraging
-                  my skills to create their website and adeptly manage their social media presence.
-                </span>
+                  At Madewebs, my role as a web designer allowed me to create bespoke, user-friendly websites tailored to meet clients' specific needs and preferences, ensuring a seamless online presence for their businesses.
+                  </span>
               </p>
             </div>
             <div className="col-lg-3">

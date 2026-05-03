@@ -33,10 +33,6 @@ function Contact() {
               <a href="https://www.linkedin.com/in/abhin-c/">abhin-c</a>
             </span>
             <span>
-              <strong>instagram: </strong>
-              <a href="https://www.instagram.com/abhin__c/">abhin__c</a>
-            </span>
-            <span>
               <strong>Email: </strong>
               <a href="mailto:abhinchelakkal@gmail.com"> abhinchelakkal@gmail.com</a>
             </span>

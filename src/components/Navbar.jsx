@@ -5,7 +5,6 @@ const navItems = [
   { to: '/', label: 'Home', end: true },
   { to: '/about', label: 'About' },
   { to: '/projects', label: 'Projects' },
-  { to: '/gallery', label: 'Gallery' },
   { to: '/resume', label: 'Resume' },
   { to: '/contact', label: 'Contact' },
 ]
@@ -24,7 +23,7 @@ function Navbar() {
       {/* Logo / Brand */}
       <div className="brand wow fadeIn" data-wow-delay="0.1s">
         Abhin.C
-        <div className="title">- full stack developer -</div>
+        <div className="title">- aspiring full-stack developer -</div>
       </div>
 
       {/* Navigation */}
