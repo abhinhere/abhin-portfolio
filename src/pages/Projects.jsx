@@ -7,6 +7,8 @@ const projects = [
     description: 'Designed flow for handling multiple types of student enquiries using Natural Language Processing.',
     tags: ['NLP', 'IVR', 'Python'],
     number: '01',
+    preview: '/img/preview_ivr.png',
+    link: 'https://github.com/abhinhere/IVRSystem',
   },
   {
     id: 2,
@@ -14,6 +16,8 @@ const projects = [
     description: 'Built a full-stack invoice generator using React and Node.js with real-time total calculation, PDF export, and a clean responsive UI.',
     tags: ['React', 'Node.js', 'PDF'],
     number: '02',
+    preview: '/img/preview_invoice.png',
+    link: 'https://github.com/abhinhere/invoice-generator',
   },
   {
     id: 3,
@@ -21,6 +25,8 @@ const projects = [
     description: 'Developed a web application to explore locations and services using external APIs. Built during a Hackathon.',
     tags: ['Hackathon', 'REST API', 'JavaScript'],
     number: '03',
+    preview: '/img/preview_travel.png',
+    link: 'https://github.com/abhinhere/',
   },
   {
     id: 4,
@@ -28,6 +34,8 @@ const projects = [
     description: 'A collaborative project by Mishal, Salih, Shannof & Abhin — built during the pandemic as a support platform for hotels and people in our locality.',
     tags: ['Web App', 'Community'],
     number: '04',
+    preview: '/img/preview_malabo.png',
+    link: 'https://github.com/abhinhere/',
   },
 ]
 
@@ -49,6 +57,13 @@ function Projects() {
                   {project.tags.map(tag => (
                     <span key={tag} className="project-tag">{tag}</span>
                   ))}
+                </div>
+                <div className="project-preview">
+                  <img
+                    src={project.preview}
+                    alt={`${project.title} preview`}
+                    className="project-preview-img"
+                  />
                 </div>
               </div>
             </div>
