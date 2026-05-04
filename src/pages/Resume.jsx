@@ -14,7 +14,7 @@ function Resume() {
               <h4>Education</h4>
             </div>
             <div className="col-lg-6">
-              <p>
+              <p style={{ marginBottom: '5px' }}>
                 <span className="e-heading">Computer Science And Engineering</span>
                 <br />
                 College of Engineering Vadakara
@@ -33,182 +33,174 @@ function Resume() {
           <div className="line-symbol"></div>
         </div>
 
-        {/* Work Experience */}
+        {/* Experience */}
         <div className="container desc">
           <div className="row">
             <div className="col-lg-2 col-lg-offset-1">
-              <h4>Work</h4>
+              <h4>Experience</h4>
             </div>
-        
-            {/* Media Manager */}
+
+            {/* MadeWebs */}
             <div className="col-lg-6">
-              <p>
-                <span className="e-heading">Freelancing</span>
+              <p style={{ marginBottom: '5px' }}>
+                <span className="e-heading">Founder & Web Developer</span>
                 <br />
                 MadeWebs
-                <br />
               </p>
-              <p>
-                <span className="more">
-                  At Madewebs, my role as a web designer allowed me to create bespoke, user-friendly websites tailored to meet clients' specific needs and preferences, ensuring a seamless online presence for their businesses.
-                  </span>
-              </p>
+              <ul className="more" style={{ paddingLeft: '15px', marginTop: '0', marginBottom: '15px' }}>
+                <li>Founded a freelance web development business, delivering custom websites for 20+ clients</li>
+                <li>Handled client communication, customization, and deployment end-to-end</li>
+              </ul>
             </div>
             <div className="col-lg-3">
-              <p><span className="date">Jan 2021 - Aug 2022</span></p>
+              <p><span className="date">Present</span></p>
             </div>
 
-            {/* Karate Instructor */}
+            {/* MadeProducts */}
             <div className="col-lg-6 col-lg-offset-3">
-              <p>
-                <span className="e-heading">Karate Instructor</span>
-                <br />
-                Okinawa shorin ryu karate do
-                <br />
-              </p>
-              <p>
-                <span className="more">
-                  I have enriched my expertise in Okinawa Shorin Ryu Karate-Do through training and
-                  teaching under the guidance of masters Prasanakumar and Lithesh, embodying both
-                  traditional principles and modern teaching methods.
-                </span>
-              </p>
-            </div>
-            <div className="col-lg-3">
-              <p><span className="date">March 2018</span></p>
-            </div>
-
-            {/* Manager – MadeFit */}
-            <div className="col-lg-6 col-lg-offset-3">
-              <p>
-                <span className="e-heading">Manager</span>
-                <br />
-                MadeFit Gents
-                <br />
-              </p>
-              <p>
-                <span className="more">
-                  At Madefit Gents Shop, I wore multiple hats as a salesperson, purchaser, and
-                  digital marketer, ensuring a seamless customer experience and effective brand
-                  promotion.
-                </span>
-              </p>
-            </div>
-            <div className="col-lg-3">
-              <p><span className="date">AUG 2018</span></p>
-            </div>
-
-            {/* Marketing Manager */}
-            <div className="col-lg-6 col-lg-offset-3">
-              <p>
+              <p style={{ marginBottom: '5px' }}>
                 <span className="e-heading">Marketing Manager</span>
                 <br />
-                Made Products
-                <br />
+                MadeProducts
               </p>
-              <p>
-                <span className="more">
-                  At Made Products, I specialized in both digital and offline marketing strategies,
-                  effectively promoting our paper bag manufacturing capabilities to diverse markets
-                  and clients.
-                </span>
-              </p>
+              <ul className="more" style={{ paddingLeft: '15px', marginTop: '0', marginBottom: '15px' }}>
+                <li>Managed marketing for a paper bag manufacturing business</li>
+                <li>Coordinated client interactions and supported order management</li>
+              </ul>
             </div>
             <div className="col-lg-3">
-              <p><span className="date">FEB 2020</span></p>
+              <p><span className="date">2024 - Present</span></p>
+            </div>
+          </div>
+          <br />
+          <div className="line-symbol"></div>
+        </div>
+
+        {/* Positions of Responsibility */}
+        <div className="container desc">
+          <div className="row">
+            <div className="col-lg-2 col-lg-offset-1">
+              <h4>Positions of Responsibility</h4>
             </div>
 
-            {/* Poster Designer */}
-            <div className="col-lg-6 col-lg-offset-3">
-              <p>
-                <span className="e-heading">Poster Designer</span>
-                <br />
-                Training and placement cell, CEV
-                <br />
-              </p>
-              <p>
-                <span className="more">
-                  At the Training and Placement Cell of College of Engineering Vadakara, I utilized
-                  my design expertise to craft compelling posters that communicated career prospects
-                  and events with clarity and visual appeal.
-                </span>
-              </p>
-            </div>
-            <div className="col-lg-3">
-              <p><span className="date">JAN 2024</span></p>
-            </div>
-
-            {/* Technical Coordinator - IEEE */}
-            <div className="col-lg-6 col-lg-offset-3">
-              <p>
-                <span className="e-heading">Technical Coordinator</span>
-                <br />
-                IEEE SB CEV
-                <br />
-              </p>
-              <p>
-                <span className="more">
-                  I&#39;ve contributed to IEEE SB CEV as a dedicated volunteer and technical
-                  coordinator, leveraging my skills to support and advance technological initiatives
-                  within the organization.
-                </span>
-              </p>
-            </div>
-            <div className="col-lg-3">
-              <p><span className="date">MAY 2024</span></p>
-            </div>
-
-            {/* Web Designer – Made Webs */}
-            <div className="col-lg-6 col-lg-offset-3">
-              <p>
-                <span className="e-heading">Web Designer</span>
-                <br />
-                Made Webs
-                <br />
-              </p>
-              <p>
-                <span className="more">
-                  At Madewebs, my role as a web designer allowed me to create bespoke, user-friendly
-                  websites tailored to meet clients&#39; specific needs and preferences, ensuring a
-                  seamless online presence for their businesses.
-                </span>
-              </p>
-            </div>
-            <div className="col-lg-3">
-              <p><span className="date">MARCH 2022</span></p>
-            </div>
-
-            {/* Designer – IEEE LINK */}
-            <div className="col-lg-6 col-lg-offset-3">
-              <p>
-                <span className="e-heading">Designer</span>
-                <br />
-                IEEE lINK
-                <br />
-              </p>
-              <p><span className="more"></span></p>
-            </div>
-            <div className="col-lg-3">
-              <p><span className="date">JAN 2025</span></p>
-            </div>
-
-            {/* Student Lead – IEDC */}
-            <div className="col-lg-6 col-lg-offset-3">
-              <p>
+            {/* IEDC CEV */}
+            <div className="col-lg-6">
+              <p style={{ marginBottom: '5px' }}>
                 <span className="e-heading">Student Lead</span>
                 <br />
                 IEDC CEV
-                <br />
               </p>
-              <p><span className="more"></span></p>
+              <ul className="more" style={{ paddingLeft: '15px', marginTop: '0', marginBottom: '15px' }}>
+                <li>Led student initiatives focused on innovation and entrepreneurship</li>
+                <li>Organized 100+ events, fostering an innovation-driven community</li>
+              </ul>
             </div>
             <div className="col-lg-3">
-              <p><span className="date">APRIL 2025</span></p>
+              <p><span className="date">2025 - 2027</span></p>
             </div>
 
+            {/* IEEE LINK */}
+            <div className="col-lg-6 col-lg-offset-3">
+              <p style={{ marginBottom: '5px' }}>
+                <span className="e-heading">Designer</span>
+                <br />
+                IEEE LINK
+              </p>
+              <ul className="more" style={{ paddingLeft: '15px', marginTop: '0', marginBottom: '15px' }}>
+                <li>Designed promotional assets for events and outreach activities</li>
+                <li>Maintained consistent visual identity across platforms</li>
+              </ul>
+            </div>
+            <div className="col-lg-3">
+              <p><span className="date">2025</span></p>
+            </div>
+
+            {/* IEEE SB CEV */}
+            <div className="col-lg-6 col-lg-offset-3">
+              <p style={{ marginBottom: '5px' }}>
+                <span className="e-heading">Technical Coordinator</span>
+                <br />
+                IEEE SB CEV
+              </p>
+              <ul className="more" style={{ paddingLeft: '15px', marginTop: '0', marginBottom: '15px' }}>
+                <li>Organized and supported technical workshops and events</li>
+              </ul>
+            </div>
+            <div className="col-lg-3">
+              <p><span className="date">2024</span></p>
+            </div>
+
+            {/* Quasso Liberum */}
+            <div className="col-lg-6 col-lg-offset-3">
+              <p style={{ marginBottom: '5px' }}>
+                <span className="e-heading">Joint Convenor</span>
+                <br />
+                Quasso Liberum 12, College of Engineering Vadakara
+              </p>
+              <ul className="more" style={{ paddingLeft: '15px', marginTop: '0', marginBottom: '15px' }}>
+                <li>Co-led organization of a large-scale college tech fest with multiple events and participants</li>
+                <li>Coordinated teams across design, operations, and technical domains</li>
+                <li>Managed event execution, planning, and inter-team communication</li>
+              </ul>
+            </div>
+            <div className="col-lg-3">
+              <p><span className="date">2026</span></p>
+            </div>
+
+            {/* Placement Cell */}
+            <div className="col-lg-6 col-lg-offset-3">
+              <p style={{ marginBottom: '5px' }}>
+                <span className="e-heading">Poster Designer</span>
+                <br />
+                Placement Cell, College of Engineering Vadakara
+              </p>
+              <ul className="more" style={{ paddingLeft: '15px', marginTop: '0', marginBottom: '15px' }}>
+                <li>Designed promotional creatives for placement drives and campus recruitment activities</li>
+                <li>Maintained consistent branding and visual communication for official announcements</li>
+                <li>Collaborated with placement team for timely content delivery</li>
+              </ul>
+            </div>
+            <div className="col-lg-3">
+              <p><span className="date">2024</span></p>
+            </div>
+
+            {/* IEDC CEV Webmaster */}
+            <div className="col-lg-6 col-lg-offset-3">
+              <p style={{ marginBottom: '5px' }}>
+                <span className="e-heading">Webmaster</span>
+                <br />
+                IEDC CEV
+              </p>
+              <ul className="more" style={{ paddingLeft: '15px', marginTop: '0', marginBottom: '15px' }}>
+                <li>Managed and maintained the official website, ensuring uptime and performance</li>
+                <li>Updated event pages, announcements, and content regularly</li>
+                <li>Collaborated with tech and media teams for smooth digital operations</li>
+              </ul>
+            </div>
+            <div className="col-lg-3">
+              <p><span className="date">2024</span></p>
+            </div>
+
+            {/* NSS GMHSS */}
+            <div className="col-lg-6 col-lg-offset-3">
+              <p style={{ marginBottom: '5px' }}>
+                <span className="e-heading">Social Media Manager</span>
+                <br />
+                National Service Scheme, GMHSS CU Campus
+              </p>
+              <ul className="more" style={{ paddingLeft: '15px', marginTop: '0', marginBottom: '15px' }}>
+                <li>Managed social media accounts and content strategy for outreach activities</li>
+                <li>Designed and scheduled posts to increase engagement and visibility</li>
+                <li>Promoted events, campaigns, and community initiatives</li>
+              </ul>
+            </div>
+            <div className="col-lg-3">
+              <p><span className="date">2021–2022</span></p>
+            </div>
           </div>
           <br />
         </div>
+
       </div>
     </Layout>
   )

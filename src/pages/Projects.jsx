@@ -1,46 +1,59 @@
 import Layout from '../components/Layout'
 
+const projects = [
+  {
+    id: 1,
+    title: 'College Enquiry IVR System with NLP',
+    description: 'Designed flow for handling multiple types of student enquiries using Natural Language Processing.',
+    tags: ['NLP', 'IVR', 'Python'],
+    number: '01',
+  },
+  {
+    id: 2,
+    title: 'Invoice Generator Web Application',
+    description: 'Built a full-stack invoice generator using React and Node.js with real-time total calculation, PDF export, and a clean responsive UI.',
+    tags: ['React', 'Node.js', 'PDF'],
+    number: '02',
+  },
+  {
+    id: 3,
+    title: 'Travel Guide App',
+    description: 'Developed a web application to explore locations and services using external APIs. Built during a Hackathon.',
+    tags: ['Hackathon', 'REST API', 'JavaScript'],
+    number: '03',
+  },
+  {
+    id: 4,
+    title: 'Malabo',
+    description: 'A collaborative project by Mishal, Salih, Shannof & Abhin — built during the pandemic as a support platform for hotels and people in our locality.',
+    tags: ['Web App', 'Community'],
+    number: '04',
+  },
+]
+
 function Projects() {
   return (
     <Layout title="Abhin - Projects">
-      <div className="margin-services">
+      <div className="margin-resume">
+        <h3 className="heading-inner">Projects</h3>
+        <div className="hr"></div>
 
-        {/* Project 1 – #Trending */}
-        <div className="col-md-7">
-          <div className="first-s">
-            <div className="square wow fadeInDown" data-wow-delay=".5s"></div>
-          </div>
-          <img src="/img/work1.jpg" alt="photo" className="photo-services" />
+        <div className="projects-list">
+          {projects.map((project) => (
+            <div key={project.id} className="project-item">
+              <div className="project-number">{project.number}</div>
+              <div className="project-content">
+                <h4 className="project-title">{project.title}</h4>
+                <p className="project-desc">{project.description}</p>
+                <div className="project-tags">
+                  {project.tags.map(tag => (
+                    <span key={tag} className="project-tag">{tag}</span>
+                  ))}
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
-        <div className="col-md-5">
-          <a href="https://nsscucampus.github.io/magazine/">
-            <h4 className="heading-services">#Trending</h4>
-          </a>
-          <p>
-            The magazine #Trending, which amalgamates creativity and technology, gives voice to the
-            conflicts of today and the hopes of tomorrow, is compiled and designed by the National
-            Service Scheme Unit of GMHSS CU Campus. It comprises stories, poems, write-ups, reviews,
-            etc penned by the students.
-          </p>
-        </div>
-
-        {/* Project 2 – Malabo */}
-        <div className="col-md-7">
-          <div className="first-s">
-            <div className="square wow fadeInDown" data-wow-delay=".5s"></div>
-          </div>
-          <img src="/img/work2.jpg" alt="photo" className="photo-services" />
-        </div>
-        <div className="col-md-5">
-          <a href="">
-            <h4 className="heading-services">Malabo</h4>
-          </a>
-          <p>
-            We Four people named Mishal, Salih, Shannof, Abhin worked behind this project in the
-            period of pandemic as a support for hotels &amp; peoples in our locality.
-          </p>
-        </div>
-
       </div>
     </Layout>
   )

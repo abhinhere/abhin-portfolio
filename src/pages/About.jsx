@@ -48,21 +48,21 @@ function About() {
           <div className="hr"></div>
           <center>
             <a href="https://www.instagram.com/abhin__c/">
-              <i className="fa fa-instagram fa-1x icon1"></i> Instagram : abhin__C
+              <i className="fa fa-instagram fa-1x icon1"></i> : abhin__c
             </a>
             <br /><br />
             <a href="https://www.linkedin.com/in/abhin-c/">
-              <i className="fa fa-linkedin fa-1x icon1"></i> linkedin : abhin-C
+              <i className="fa fa-linkedin fa-1x icon1"></i> : abhin-c
             </a>
             <br /><br />
             <a href="https://github.com/abhinhere">
-              <i className="fa fa-github fa-1x icon1"></i> Github : abhinhere
+              <i className="fa fa-github fa-1x icon1"></i> : abhinhere
             </a>
             <br /><br />
             <a href="https://x.com/Abhin__c">
-              <i className="fa fa-twitter fa-1x icon1"></i> X : abhinhere
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="icon1" style={{width: '1em', height: '1em', verticalAlign: '-0.125em', fill: 'currentColor'}}><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg> : abhinhere
             </a>
-            <br/><br/>
+            <br /><br />
           </center>
         </div>
       </div>
